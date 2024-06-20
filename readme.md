@@ -4,23 +4,22 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Tiviant01/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hero and Card</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A showcase of Hero and Cards with some of my favorite game franchises
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Tiviant01/WD-Hands-on-2-TX03)
 
 ---
 
@@ -43,7 +42,7 @@
       </ol>
     </li>
     <li>
-      <a href="#rules-and-principles">Rules and Principles</a>
+      <a href="#deploy">Deployment Link</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -55,60 +54,47 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- This project is a small website showing hero pages and both static and animated cards. This website uses multiple pages to showcase each design. HTML and CSS were in the making of this website.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
-## Rules and Principles
-1. Always use ***WD-*** in the Title of the Project for the Subject
-2. Do not rename any .html files; always use 'index.html' as the filename.
-3. File Structure to follow
+## Deployment Link
 
-```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ js
-|   |   └─ script.js
-|   └─ img
-|       └─ fileWith.jpeg/.jpg/.webp/.png
-└─ pages
-|  └─ pageName
-|     └─ index.html
-|     └─ assets
-|        └─ css
-|        |  └─ style.css
-|        └─ js
-|        |  └─ script.js
-|        └─ img
-|           └─ fileWith.jpeg/.jpg/.webp/.png
-└─ index.html
-└─ readme.md
-```
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Fantasy Pixel Landscape | Home Background Image | https://ph.pinterest.com/pin/351912465145015/|
+|Daydream | Font | https://www.dafont.com/bitmap.php|
+|-|Background Image|https://ph.pinterest.com/pin/65372632084136229/|
+|Pokemon Bulbasaur PNG Pic| Image | https://www.pngmart.com/image/tag/bulbasaur |
+|VCR OSD Mono | Font | https://www.dafont.com/bitmap.php |
+|-|Background Image| https://ph.pinterest.com/pin/33354853482339724/ |
+|-| Image | https://ph.pinterest.com/pin/11399805456284784/ |
+|Lili pic ☆Lili Tekken 8| Background Image|https://ph.pinterest.com/pin/295900638036757595/|
+|-|Background Image|https://ph.pinterest.com/pin/351912465145010/|
+|Fancy Matter| Fonts |https://www.dafont.com/search.php?q=fancy|
+|Lili De Rochefort Art - Tekken 8 Art Gallery|Image|https://ph.pinterest.com/pin/965529607599423501/|
+|Hack and Slash Your Way Out of Hell in Hades Starting August 13 with Xbox Game Pass - Xbox Wire|Image|https://news.xbox.com/en-us/2021/08/12/hades-august-13-with-xbox-game-pass/|
+|Fira Sans Condensed|Fonts|https://fonts.google.com/specimen/Fira+Sans+Condensed|
+|pixel mountain art by ai|Background|https://ph.pinterest.com/pin/439875088625029467/|
+|-|Image|https://ph.pinterest.com/pin/412220172157661051/|
+|Genshin Impact|Fonts|https://www.dafontfree.io/download/genshin-impact/|
+|A transparent image of all of the Element Emblems.|Image|https://www.reddit.com/r/Genshin_Impact/comments/jlt4dh/a_transparent_image_of_all_of_the_element_emblems/|
+|Mega Venusaur Wallpaper|Background Image|https://www.reddit.com/r/pokemon/comments/2g0gsp/mega_venusaur_wallpaper/|
+|Dark Cosmic Lux by SerpentigenaArt on DeviantArt|Image|https://ph.pinterest.com/pin/723038915179523943/|
+|How to Change Image on Hover with HTML & CSS|Code|https://www.youtube.com/watch?v=NHb3o3sP9iA|
+|-|Image|https://ph.pinterest.com/pin/433190057924823546/|
+|Cogitating black holes|Text background|https://aeon.co/essays/how-black-hole-thought-experiments-help-explain-the-universe|
+|Clip an image to text with CSS|Code|https://www.youtube.com/watch?v=9Kr3T4Ndl-o|
+|-|Image|https://ph.pinterest.com/pin/514888169913588104/|
+|Elysium Art|Image|https://www.creativeuncut.com/gallery-45/hades-elysium.html|
+
+

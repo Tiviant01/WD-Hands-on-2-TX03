@@ -116,7 +116,7 @@ section.home {
     border-radius: 10px;
     opacity: 1;
     position: absolute;
-    top: 74%;
+    top: 63%;
     opacity: 0;
     transition: 0.2s;
 }
@@ -125,8 +125,8 @@ section.home {
     font-size: 30px;
     color: white;
     font-family: hades;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 40px;
+    
 }
 
 #box4 img{

@@ -1,0 +1,176 @@
+@font-face {
+    font-family: MC;
+    src: url(../fonts/Minecraftia-Regular.ttf);
+}
+
+@font-face {
+    font-family: genshin;
+    src: url(../fonts/zh-cn.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url(../img/pixel\ mountain\ art\ by\ ai.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.home {
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 10vw;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 img {
+    width : 200px;
+    border-left: 3px white solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction : column;
+    width: 400px;
+}
+
+
+#box2 h1{
+    font-size: 30px;
+    margin: 5px;
+    font-family: genshin;
+    color: white;
+}
+
+#box2 h2{
+    font-size: 20px;
+    margin: 5px;
+    font-family: genshin;
+    color: white;
+}
+
+#box2 p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: genshin;
+    color: white;
+    padding: 5px;
+}
+
+#box12{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(190, 232, 243, 0.719);
+    backdrop-filter: blur(4px);
+    transition: .5s;    
+}
+
+.top{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    border-right: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;    
+    opacity:0;
+}
+
+#box12:hover{
+    transform: scale(1.2) rotateY(180deg);
+}
+
+#box12:hover #box1 img{
+    opacity: 0;
+}
+
+#box12:hover .top{
+    opacity: 1;
+}
+
+#box3{
+    transition: .2s;
+    cursor: default;
+}
+
+#box3 img{
+    width: 400px;
+}
+
+#box3:hover{
+    transform: scale(1.2) rotateY(180deg) ;
+}
+
+#box3:hover #box4{
+    opacity: 0;
+}
+
+#box4 h1{
+    font-family: genshin;
+    color : white;
+    font-size: 100px;
+    position: absolute;
+    top: 29%;
+    left: 11.5%;
+}
+
+#box5{
+    margin-top: 230px;
+}
+
+#box5 button{
+    padding: 10px;
+    margin: 15px;
+    font-family: MC;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    transition: .1s;
+ }
+
+#box5 button:hover{
+    transform: scale(1.2);
+    backdrop-filter: blur(0px);
+    border: 3px white solid;
+ }
+
+#box5 button:active{
+    transform: scale(1.0);
+    background-color: white;
+    border: 5px white solid;
+    color: cadetblue;
+ }
+

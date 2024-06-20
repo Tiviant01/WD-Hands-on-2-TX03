@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Bulb;
+    src: url(../fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+@font-face {
+    font-family: MC;
+    src: url(../fonts/Minecraftia-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url(../img/download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.home {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: pop;
+    color: white;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box1 img{
+    width: 800px;
+    padding: 40px;
+    padding-right: 160px;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2 h1{
+    font-family: Bulb;
+    color : white;
+    font-size: 190px;
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    transition: .2s;
+    cursor: default;
+}
+
+#box2 h1:hover{
+    transform: scale(1.2);
+    color: green;
+}
+
+#box3{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.home button{
+    padding: 10px;
+    margin: 15px;
+    font-family: MC;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    transition: .1s;
+ }
+
+ .home button:hover{
+    transform: scale(1.2);
+    backdrop-filter: blur(0px);
+    border: 3px white solid;
+ }
+
+ .home button:active{
+    transform: scale(1.0);
+    background-color: white;
+    border: 5px white solid;
+    color: cadetblue;
+ }
+
+ #box4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    transition: .4s;
+    cursor:default;
+ }
+
+ #box4:hover{
+    transform: scale(1.2);
+    color: white;
+    border: 5px darkgreen solid;
+    border-radius: 10px;
+    background-image: url(../img/mega\ venusaur.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+ }
+
+ #box4 h1,h2{
+    font-family: MC;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -15px
+ }
+

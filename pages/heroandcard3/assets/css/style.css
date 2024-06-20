@@ -1,0 +1,127 @@
+@font-face {
+    font-family: fan;
+    src: url(../fonts/Fancy\ Matter.otf);
+}
+
+@font-face {
+    font-family: MC;
+    src: url(../fonts/Minecraftia-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url(../img/download\ \(4\).jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+section.home {
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box1 img{
+    width: 200px;
+    border: 5px white solid;
+    border-radius: 10px;
+}
+
+h1{
+    background-color: rgb(212, 55, 81);
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px white solid;
+    font-family: fan;
+    color: white;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#box2 h1{
+    background-color: rgb(212, 55, 81);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: -15px;
+}
+
+#box3 img{
+    width: 240px;
+    border: 5px white solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+}
+
+#box5{
+    margin-top: 70px;
+    margin-right: 125px;
+}
+
+#box5 button{
+    padding: 10px;
+    margin: 15px;
+    font-family: MC;
+    color: white;
+    border: 5px white solid;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(4px);
+    transition: .1s;
+ }
+
+#box5 button:hover{
+    transform: scale(1.2);
+    backdrop-filter: blur(0px);
+    border: 3px white solid;
+ }
+
+#box5 button:active{
+    transform: scale(1.0);
+    background-color: white;
+    border: 5px white solid;
+    color: cadetblue;
+ }

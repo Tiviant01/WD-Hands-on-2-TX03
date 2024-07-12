@@ -88,4 +88,14 @@ section.home {
     color: cadetblue;
  }
 
+ button.resume{
+    position: fixed;
+    top: .5%;
+    left: .5%;
+    background-color: rgb(110, 108, 108);
+    color: grey;
+    font-size: 20px;
+    font-family: pop;
+    padding: 15px;
+}
 
